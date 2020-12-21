@@ -1,12 +1,18 @@
+body {
+    font-family: Roboto, serif;
+    font-stretch: condensed;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
 
 canvas {
     position: absolute;
     width: 100%;
-    height: 370%;
+    height: 340%;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
 }
 
 
@@ -52,6 +58,8 @@ canvas {
 
 .parent {
     position: relative;
+    height: 530px;
+    width: 100%;
     opacity: 0.6;
 }
 
@@ -90,7 +98,7 @@ canvas {
     border: solid 1px #cc3b29;
     background-image: linear-gradient(to top, #880000, #cc3b29);
 
-    font-weight: bold;
+    font-weight: normal;
     color: #ffffff;
 }
 
@@ -189,7 +197,7 @@ h2.double:after {
 }
 
 .nav-item {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .nav-tabs .nav-link.active {
@@ -199,6 +207,7 @@ h2.double:after {
     font-weight: bold;
     border: 0;
     border-bottom: 3px solid #cb0000;
+    font-size: 18px;
 }
 
 .nav-tabs .nav-link:hover {
@@ -206,7 +215,11 @@ h2.double:after {
 }
 
 a.nav-link {
-    color: white !important;
+    color: #ffffff;
+}
+
+.title-menu {
+    color: #ffffff !important;
 }
 
 .searchInput {
@@ -270,8 +283,6 @@ a.nav-link {
 .product-catagory {
     display: block;
     font-size: 16px;
-    font-weight: 700;
-    text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -302,13 +313,13 @@ a.nav-link {
 
 .product-bottom-details .a {
     float: left;
-    width: 40%;
+    width: 48%;
     height: 100%;
 }
 
 .product-bottom-details .b {
     float: left;
-    width: 60%;
+    width: 52%;
     height: 100%;
     color: white;
     border-left: 4px #252525 solid;
@@ -318,14 +329,13 @@ a.nav-link {
 }
 
 .product-price {
-    font-size: 12px;
+    font-size: 13px;
     color: #ffc700;
     font-weight: bold;
 }
 
 .product-price small {
-    font-size: 60%;
-    font-weight: 400;
+    font-size: 78%;
     text-decoration: line-through;
     display: inline-block;
     margin-right: 5px;
