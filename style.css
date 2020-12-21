@@ -55,6 +55,17 @@
     border-radius: 20px !important;
 }
 
+.img-product-size {
+    min-height: 142px !important;
+    width: 100%;
+}
+
+.background-tab {
+    background-image: url("img/artboard-1.png"), url("img/artboard-2.png");
+    background-position: right center, left center;
+    background-repeat: no-repeat, no-repeat;
+}
+
 .border-radius-search {
     border-radius: 20px !important;
     border: solid 1px #707070 !important;
@@ -93,8 +104,8 @@
     color: #ffffff;
 }
 
-.radius-20 {
-    border-radius: 20px;
+.radius-28 {
+    border-radius: 28px;
 }
 
 .carousel-caption {
@@ -130,31 +141,14 @@ h2 {
     text-transform: uppercase;
 }
 
-h2.background {
-    position: relative;
-    z-index: 1;
-}
 
-h2.background:before {
-    border-top: 2px solid #880000;
-    content: "";
-    margin: 0 auto;
-    /* this centers the line to the full width specified */
-    position: absolute;
-    /* positioning must be absolute here, and relative positioning must be applied to the parent */
-    top: 50%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 95%;
-    z-index: -1;
-}
-
-h2.background span {
+.title {
     /* to hide the lines from behind the text, you have to set the background color the same as the container */
     background: #000000;
     color: white;
     padding: 0 15px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 h2.double:before {
@@ -329,3 +323,4 @@ a.nav-link {
 .font-10 {
     font-size: 10px;
 }
+
