@@ -58,7 +58,7 @@ canvas {
 
 .parent {
     position: relative;
-    height: 530px;
+    max-height: 530px;
     width: 100%;
     opacity: 0.6;
 }
