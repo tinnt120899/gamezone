@@ -30,7 +30,7 @@
             height = window.innerHeight,
 
             presetDefault = {
-                count: 1000,
+                count: 2000,
                 size: 1,
                 minSpeed: 10,
                 maxSpeed: 50,

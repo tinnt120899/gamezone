@@ -12,11 +12,6 @@
     <!-- Fontawesome -->
     <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.14.0/css/v4-shims.css" rel="stylesheet">
-    <!-- animate.style -->
-    <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet"/>-->
-    <!--    <link href="animation/animation-two-way.css" rel="stylesheet"/>-->
-    <!--    Flickity-slider-->
-    <!--    <link href="slider/flickity.css" rel="stylesheet">-->
 
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap" rel="stylesheet">
@@ -24,8 +19,8 @@
 
 <body>
 
-<div class="container-fluid p-0">
-    <canvas id="particlesField">This Browser is not supported</canvas>
+<div class="container-fluid m-0 p-0">
+    <canvas id="particlesField" class="m-0 p-0">This Browser is not supported</canvas>
 
     <nav class="hr-bottom navbar navbar-expand-xl sticky-top align-items-end bg-none">
         <!--  Show this only on mobile to medium screens  -->
@@ -34,9 +29,11 @@
         </a>
 
         <button aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation"
-                class="navbar-toggler parent-elem"
+                class="navbar-toggler parent-elem mb-2"
                 data-target="#navbarToggle" data-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars text-danger"></i>
+            </span>
         </button>
 
         <!--  Use flexbox utility classes to change how the child elements are justified  -->
@@ -72,7 +69,7 @@
         </div>
     </nav>
 
-    <div class="row justify-content-center mb-5">
+    <div class="row justify-content-center m-0 mb-5">
         <div class="col-12">
             <img class="img-fluid parent" src="img/881376@2x.jpg">
 
@@ -91,7 +88,7 @@
 
         </div>
 
-        <div class="col-md-8 col-sm-12 p-5">
+        <div class="col-md-8 col-sm-12 p-5 d-none d-md-block">
             <div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
                 <ol class="carousel-indicators">
                     <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
@@ -140,7 +137,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center align-items-center text-center p-0 mb-5">
+    <div class="row justify-content-center align-items-center text-center m-0 p-0 mb-5">
         <div class="col-md-4 d-none d-md-block">
             <img class="mt-4 w-100 img-fluid" src="img/path-2.png">
         </div>
@@ -156,7 +153,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center m-0 mb-3">
 
         <div class="col-md-5 mb-md-3 p-md-0 pl-sm-3 pr-sm-5 text-center">
             <input class="mr-3 searchInput w-100" placeholder="Enter keywords to search..." type="text">
@@ -175,7 +172,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center background-tab mb-5">
+    <div class="row justify-content-center background-tab m-0 mb-5">
         <div class="col-md-8 col-sm-12">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item active">
@@ -452,7 +449,7 @@
                     </div>
 
                     <div class="row justify-content-center mt-4">
-                        <div class="col-4">
+                        <div class="col-md-4 col-sm-4">
                             <button class="border-radius-btn w-100">View more</button>
                         </div>
                     </div>
@@ -994,7 +991,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center align-items-center text-center p-0 mb-5">
+    <div class="row justify-content-center align-items-center text-center m-0 p-0 mb-5">
         <div class="col-md-4 d-none d-md-block">
             <img class="mt-4 w-100" src="img/path-2.png">
         </div>
@@ -1010,7 +1007,7 @@
         </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center m-0">
 
         <div class="col-md-8 col-sm-12 mb-5">
             <div class="row">
@@ -1073,32 +1070,32 @@
 
     </div>
 
-    <div class="footer pt-5 pb-4 pl-5 pr-5">
+    <div class="footer m-0 pt-5 pb-4 pl-5 pr-5">
         <div class="row justify-content-center mb-5">
-            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 text-center">
+            <div class="col-xl-4 col-lg-6 col-md-8 col-sm-12 text-center">
                 <img class="mb-4" src="img/group@2x.png">
                 <p class="sub-title">
                     The security our user's accounts and personal information, are our main priority.
                     The security our user's accounts and personal information, are our main priority.
                 </p>
                 <div class="row justify-content-center mt-4 mb-3 align-items-end">
-                    <div class="col-2 p-0 text-center">
+                    <div class="col p-0 mr-2 mt-1 text-center">
                         <img src="img/group-6_2.png"><br>
                         <span class="sub-title">Facebook</span>
                     </div>
-                    <div class="col-2 p-0 text-center">
+                    <div class="col p-0 mr-2 mt-1 text-center">
                         <img src="img/skype.png"><br>
                         <span class="sub-title">Skype</span>
                     </div>
-                    <div class="col-2 p-0 text-center">
+                    <div class="col p-0 mr-2 mt-1 text-center">
                         <img src="img/group-6.png"><br>
                         <span class="sub-title">Telegram</span>
                     </div>
-                    <div class="col-2 p-0 text-center">
+                    <div class="col p-0 mr-2 mt-1 text-center">
                         <img src="img/viber.png"><br>
                         <span class="sub-title">Viber</span>
                     </div>
-                    <div class="col-2 p-0 text-center">
+                    <div class="col p-0 mt-1 text-center">
                         <img src="img/combined-shape.png"><br>
                         <span class="sub-title">Wechat</span>
                     </div>
